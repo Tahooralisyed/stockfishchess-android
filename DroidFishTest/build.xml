@@ -203,10 +203,10 @@
 	
 	
 	<getbuildtools name="android.build.tools.dir" verbose="${verbose}" />
-	<property name="aapt" location="${sdk.dir}/build-tools/22.0.1/aapt" />
-        <property name="aidl" location="${sdk.dir}/build-tools/22.0.1/aidl" />
-        <property name="dx" location="${sdk.dir}/build-tools/22.0.1/dx" />
-        <property name="zipalign" location="${sdk.dir}/build-tools/22.0.1/zipalign" />
+	<property name="aapt" location="/Applications/sdk/build-tools/19.1.0/aapt" />
+       <property name="aidl" location="/Applications/sdk/build-tools/19.1.0/aidl" />
+       <property name="dx" location="/Applications/sdk/build-tools/19.1.0/dx" />
+       <property name="zipalign" location="/Applications/sdk/build-tools/19.1.0/zipalign" />
 
 	<!-- version-tag: custom -->
 	<import file="${sdk.dir}/tools/ant/build.xml" />
