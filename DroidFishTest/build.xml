@@ -200,12 +200,13 @@
 	<taskdef resource="anttasks.properties" classpathref="android.antlibs" />
 	<property name="exe" value="" />
 	<property name="bat" value="" />
-
+	
+	
 	<getbuildtools name="android.build.tools.dir" verbose="${verbose}" />
-	<property name="aidl" location="${android.build.tools.dir}/aidl${exe}" />
-	<property name="aapt" location="${android.build.tools.dir}/aapt${exe}" />
-	<property name="dx" location="${android.build.tools.dir}/dx${bat}" />
-	<property name="zipalign" location="${android.build.tools.dir}/zipalign${exe}" />
+	<property name="aapt" location="${sdk.dir}/build-tools/22.0.1/aapt" />
+        <property name="aidl" location="${sdk.dir}/build-tools/22.0.1/aidl" />
+        <property name="dx" location="${sdk.dir}/build-tools/22.0.1/dx" />
+        <property name="zipalign" location="${sdk.dir}/build-tools/22.0.1/zipalign" />
 
 	<!-- version-tag: custom -->
 	<import file="${sdk.dir}/tools/ant/build.xml" />
